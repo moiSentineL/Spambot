@@ -39,7 +39,7 @@ screenheight = root.winfo_screenheight()
 x_cordinate = int((screenwidth/2) - (window_width/2))
 y_cordinate = int((screenheight/2.5) - (window_height/2))
 
-root.geometry("{}x{}+{}+{}".format(window_width, window_height, x_cordinate, y_cordinate))
+root.geometry(f"{window_width}x{window_height}+{x_cordinate}+{y_cordinate}")
 
 root.title('Spambot')
 root.mainloop()
